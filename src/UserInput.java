@@ -4,6 +4,8 @@ public class UserInput {
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);
 
+        System.out.println("Type: P Sherman 42 Wallaby Way Sydney");
+
         String firstInitial = keyboard.next();
         String lastName = keyboard.next();
         String houseNumber = keyboard.next();
